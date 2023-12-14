@@ -17,3 +17,6 @@ language called ${language}. I ${adjective1} this program already.
 I read recently that declaring variables with the ${keyword1} keyword has 
 gone out of style ever since ECMAScript ${year}. 
 Oh, also, my instructor ${instructor} is awesome!`);
+
+const myName = "Pegasus Walters";
+const firstLetter = myName[0];
