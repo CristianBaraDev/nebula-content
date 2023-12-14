@@ -30,6 +30,9 @@ console.log(divide);
 // Create two odd numbers, assign them to variables and find the remainder of dividing one by the other 
 let num9 = 5;
 let num10 = 15;
+const rem = num10%num9;
+console.log(rem);
+
 
 // find the minimum value in a set of numbers: 10,20,30,40,50 
 let minValue = Math.min(10,20,30,40,50 );
