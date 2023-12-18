@@ -7,7 +7,7 @@
 
 // 2. Save the substring "Friend" from the string "Hello Friend"
 const greeting = "Hello Friend";
-const friend = greeting.slice(5,12); 
+const friend = greeting.slice(6,12); 
 console.log(friend);
 
 // 3. Using 5 or more of the following words, create a template literal that makes a legible sentence.
