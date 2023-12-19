@@ -107,3 +107,7 @@ switch(magicNUmber){
 // Output: Will you get a pet this year? It is certain.
 
 // Try and handle many edge cases - can we put in any question and have it spit out a grammatically correct response?
+
+let num = 7;
+num %= 3
+console.log(num);
