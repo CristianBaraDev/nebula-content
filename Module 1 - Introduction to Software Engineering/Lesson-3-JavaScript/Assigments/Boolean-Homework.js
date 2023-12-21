@@ -4,7 +4,7 @@ console.log(2  == "two");
 console.log("2"  == 2);
 
 //3. Write a statement that checks if 14 and '14' are strictly equal
-console.log(14 == "14");
+console.log(14 === "14");
 
 //4. Write a statement that checks if 10 is greater than -100
 console.log(10 > -100);
@@ -20,7 +20,7 @@ const a = 10;
 const b = 2;
 const c = 3;
 
-if(10> 2 && 3 >4){
+if(10 > 2 && 3 > 4){
   console.log("True statement");
 }else{
   console.log("False statement");
