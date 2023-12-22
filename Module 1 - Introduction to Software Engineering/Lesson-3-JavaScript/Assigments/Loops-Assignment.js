@@ -97,8 +97,8 @@ for(let i = 0; i < myArray.length; i++){
 const dashArray2 = [];
 for(let i = 0; i < myArray.length; i++){
     
-    //const dashArray = 
-    dashArray2.push(myArray[i].split(' ').join('-'));
+    
+    dashArray2.push(myArray[i].toUpperCase().split(' ').join('-'));
     
 }
 console.log(dashArray2);
@@ -125,3 +125,15 @@ for(let i = 0; i < myArray.length; i++){
 // // If an index is divisible by 3 log 'buzz'
 // // If an index is divisible by both 2 & 3, log 'fizz-buzz'
 // // Otherwise print the index to the console
+
+for(let i = 0; i <=30; i++){
+    if(i%2 === 0 && i%3 === 0){
+        console.log("fizz-buzz");
+    }else if(i%2 === 0){
+        console.log("fizz");
+    }else if(i%3 === 0){
+        console.log("buzz");
+    }else{
+        console.log(i);
+    }
+}
