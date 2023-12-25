@@ -22,13 +22,14 @@ console.log(plusOne(numsArray));
 function containsLetter(string, letter){
     for(let i = 0; i < string.length; i++){
         if(string[i] === letter){
-            console.log("The letter is in the word");
-            break;
+            //console.log("The letter is in the word");
+            return true;
         }
     }
+    return false;
 }
 
-containsLetter("Cristian","a");
+console.log(containsLetter("Cristian","a"));
 
 // 3. Write a function that takes in an array of full names (formatted "firstName lastName"), and returns a new array containing only first names.
 // // Example array = ["Tom Smith", "Bob Jones", "Bill Williams"] returns ["Tom", "Bob", "Bill"]
@@ -51,9 +52,11 @@ firstNames(myArray);
 
 const myName = "Cristian Barahona";
 const greetingMessage = "Hello my good friend";
-function greeting(myName,greetingMessage){
-    console.log(`${greetingMessage} ${myName}`);
+function greeting(name,message){
+    console.log(`${message} ${name}`);
 }
+
+greeting(myName,greetingMessage);
 
 // 5. Write a function that takes in the year someone was born and returns their age.
 // // Example: birth year: 2000 returns 23
@@ -61,9 +64,9 @@ function greeting(myName,greetingMessage){
 const dateOfBirth = 1993;
 const age = calculateAge(dateOfBirth);
 
-function calculateAge(){
+function calculateAge(birth){
     const currentYear = new Date().getFullYear();
-    const age = currentYear - dateOfBirth;
+    const age = currentYear - birth;
     return age;
 }
 

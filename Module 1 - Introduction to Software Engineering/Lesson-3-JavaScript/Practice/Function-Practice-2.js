@@ -28,10 +28,8 @@ function initialsList(names) {
       for (let j = 0; j < words.length; j++) {
         initialsForName += words[j].charAt(0);
       }
-  
       initials.push(initialsForName);
     }
-  
     return initials;
   }
 

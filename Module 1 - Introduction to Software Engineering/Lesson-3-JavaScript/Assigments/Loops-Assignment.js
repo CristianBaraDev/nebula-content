@@ -96,8 +96,7 @@ for(let i = 0; i < myArray.length; i++){
 // // // Output: ['MARTHA-STEWART', 'DAVID-BECKHAM', etc..]
 const dashArray2 = [];
 for(let i = 0; i < myArray.length; i++){
-    
-    
+
     dashArray2.push(myArray[i].toUpperCase().split(' ').join('-'));
     
 }
