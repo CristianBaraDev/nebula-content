@@ -64,3 +64,27 @@ function combineArrays(array1 , array2){
 }
 
 console.log(combineArrays(array1,array2));
+
+const myArray = [1,3,5,7,9];
+let meanAvg = 0;
+let lowestNum = 0
+let highestNum = 0
+let middleNum = myArray[Math.floor(myArray.length/2)];
+for(let i =0 ; i< myArray.length; i++){
+meanAvg += myArray[i];
+if(myArray[i] > highestNum){
+    highestNum = myArray[i]
+}
+
+if(myArray[i] < lowestNum){
+    lowestNum = myArray[i]
+    }
+}
+
+console.log(meanAvg/myArray.length);
+
+console.log(middleNum);
+
+console.log(highestNum - lowestNum);
+
+
