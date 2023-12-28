@@ -60,3 +60,8 @@ classmatesArray[1] = "Konatee Morris";
 classmatesArray[2] = "Tashika Pierre";
 classmatesArray[3] = "Cristian Barahona";
 console.log(classmatesArray);
+
+let str = "hello";
+parseInt(str);
+
+console.log

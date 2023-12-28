@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(161, 172, 223);
+}
+
+
+.sectionHead{
+    color: blue
+}
+
+#title{
+    border: 5px solid black;
+}
+
+button{
+    background-color: green;
+}
+
+.mainImage{
+    position: relative;
+
+    border: 1px solid #ddd;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 4px;
+    padding: 5px;
+    width: 550px;
+    height: 350;
+}
+
+p{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  header{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  li{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .wikipediaLogo{
+    margin-left: 45%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .buttonTwitter {
+    margin-left: 45%;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
