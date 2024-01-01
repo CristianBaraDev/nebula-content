@@ -1,0 +1,96 @@
+.Grid{
+    display: grid;
+    border: black;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr); 
+    grid-template-areas: 
+    "cat1 cat1 orange cat2"
+    "cat1 cat1 green cat3"
+    " blue cat4 pink cat5 "
+    " cat6 red cat7 brown";
+}
+
+
+.cat1 { 
+     grid-area: "cat1";
+}
+
+.orange{
+   background-color: orange;
+   grid-area:"orange";
+   height: 200px;
+   width: 200px;
+}
+
+.cat2 { 
+    grid-area: "cat2";
+}
+
+.purple{
+   background-color: purple;
+   grid-area: "purple";
+   height: 200px;
+   width: 200px;
+}
+
+.cat3 { 
+    grid-area: "cat3";
+}
+
+.blue{
+   background-color: blue;
+   grid-area: "blue";
+   height: 200px;
+   width: 200px;
+}
+
+.cat4 { 
+    grid-area: "cat4";
+}
+
+.pink{
+   background-color: pink;
+   grid-area: "pink";
+   height: 200px;
+   width: 200px;
+}
+
+.cat5 { 
+    grid-area: "cat5";
+}
+
+.green{
+   background-color: green;
+   grid-area: "green";
+   height: 200px;
+   width: 200px;
+}
+
+.cat6 { 
+   grid-area: "cat6";
+}
+
+.red{
+  background-color: red;
+  grid-area: "red";
+  height: 200px;
+  width: 200px;
+}
+
+.cat7 { 
+    grid-area: "cat7";
+}
+
+
+
+
+.brown{
+    background-color: brown;
+    grid-area: "brown";
+    height: 200px;
+    width: 200px;
+  }
+
+
+
+

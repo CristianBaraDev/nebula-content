@@ -1,0 +1,23 @@
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: cornflowerblue;
+    border: 8px solid yellow;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -40,6 +40,7 @@ h1 {
   }
 
   header{
+    padding-top: 5%;
     text-align: center;
     font-size: 25px;
     color: white;
@@ -66,3 +67,31 @@ h1 {
     color: black; 
     border: 2px solid #008CBA;
   }
+
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c1c5e7;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin: 0;
+    left: 0;
+
+  }
+
+  .navbar a {
+    color: rgb(49, 47, 47);
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.navbar a:hover {
+  background-color: #4a48b8; 
+  color: rgb(255, 255, 255); 
+}
