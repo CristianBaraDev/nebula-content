@@ -1,0 +1,47 @@
+
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+
+
+.chessBoard{
+    border: 10px solid red; 
+    margin-left: 35%;
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+.brown{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(219, 117, 22);
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 0px 0px; 
+    align-items: center;
+}
+
+.ligthBrown{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(197, 135, 93);
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 0px 0px; 
+    align-items: center;
+}
+
+img{
+    align-self: center;
+    margin-left: 20%;
+}
