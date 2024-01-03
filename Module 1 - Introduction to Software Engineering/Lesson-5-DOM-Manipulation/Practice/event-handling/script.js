@@ -21,14 +21,13 @@
     newSpan.innerText ='Got ya';
 **/
 
+const square = document.querySelector(".squareColor");
 
-
-document.addEventListener("click",(e) =>{
+square.addEventListener("click",(e) =>{
     const color = e.target.style.backgroundColor
     if(color === "red"){
         e.target.style.backgroundColor = "green"
     }else{
         e.target.style.backgroundColor = "red"
     }
-
 })
